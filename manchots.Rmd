@@ -18,36 +18,6 @@ install.packages('palmerpenguins')
 
 ```
 
-On charge le package 
-```{r chargement_du_package}
-library(palmerpenguins)
-```
-
-Commande non executée 
-
-```{r commande morte, eval=FALSE}
-2+2
-```
-
-Commande executée 
-```{r commande utilisée}
-2+2
-```
-
-Création d'une boucle 
-
-```{r loop}
-i=0
-N=rep(0,10)
-for (i in 1:10){
-  N[i]=i+1
-  cat("N est égal à", N[i] , "
-")
-}
-plot(N)
-abline(1,1)
-```
-
 L'objectif de cette classe est de proposer des représentations graphiques de ces données en collaborant à l'aide de l'outil git.
 
 We charge the new package 
@@ -55,11 +25,12 @@ We charge the new package
 ```{r load_package}
 library('palmerpenguins')
 ```
-We execute an unused command
-```{r commande_morte, eval = FALSE}
-2+4
+We load the dataset
 
+```{r Loading_dataset}
 
+Manchots <- palmerpenguins::penguins
 
 ```
+
 
