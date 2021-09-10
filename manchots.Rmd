@@ -1,6 +1,10 @@
 ---
 title: "Etude sur les manchots"
+<<<<<<< HEAD
 author: "MP Etienne, Florence Ghestem et al."
+=======
+author: "Elias et al"
+>>>>>>> d13a972ee416c9c1eaf47640dc3aecefd4a7f710
 date: "9/2/2021"
 output: html_document
 ---
@@ -15,11 +19,41 @@ Le  [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-
 
 ```{r install_package, eval = FALSE}
 install.packages('palmerpenguins')
+
+```
+
+On charge le package 
+```{r chargement_du_package}
+library(palmerpenguins)
+```
+
+Commande non executée 
+
+```{r commande morte, eval=FALSE}
+2+2
+```
+
+Commande executée 
+```{r commande utilisée}
+2+2
+```
+
+Création d'une boucle 
+
+```{r loop}
+i=0
+for (i in 1:10){
+  N=i+1
+  cat("N est égal à", N , "
+")
+}
+
+#06829abac37ea79ad61ba498eb121c7043d39acc
 ```
 
 L'objectif de cette classe est de proposer des représentations graphiques de ces données en collaborant à l'aide de l'outil git.
 
-<<<<<<< HEAD
+
 On charge le package 
 ```{r load_package}
 library('palmerpenguins')
@@ -32,14 +66,3 @@ Une commande qui ne sera pas exécutée
 2+2
 ```
 
-=======
-We charge the new package 
-```{r commande_morte, eval = FALSE}
-2+2
-
-```
-```{r, eval = TRUE}
-```
-
-
->>>>>>> 06829abac37ea79ad61ba498eb121c7043d39acc
