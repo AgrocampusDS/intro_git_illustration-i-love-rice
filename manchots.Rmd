@@ -33,4 +33,12 @@ Manchots <- palmerpenguins::penguins
 
 ```
 
+```{r}
+Manchots<- na.omit(Manchots)
+library(FactoMineR)
+names(Manchots)
+dimnames(Manchots)
+Manchots<- as.data.frame(Manchots)
+ACP <- PCA(Manchots[,3:6])
+```
 
