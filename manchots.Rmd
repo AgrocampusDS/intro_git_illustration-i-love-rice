@@ -43,8 +43,19 @@ for (i in 1:10){
   cat("N est égal à", N , "
 ")
 }
+
+#06829abac37ea79ad61ba498eb121c7043d39acc
 ```
 
 L'objectif de cette classe est de proposer des représentations graphiques de ces données en collaborant à l'aide de l'outil git.
 
+We charge the new package 
+```{r commande_morte, eval = FALSE}
+2+2
+
+```
+```{r, eval = TRUE}
+```
+
+06829abac37ea79ad61ba498eb121c7043d39acc
 
