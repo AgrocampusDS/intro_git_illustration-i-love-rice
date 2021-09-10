@@ -1,6 +1,6 @@
 ---
 title: "Etude sur les manchots"
-author: "Elias et al"
+author: "An, Florence Ghestem Elias"
 date: "9/2/2021"
 output: html_document
 ---
@@ -44,18 +44,20 @@ for (i in 1:10){
 ")
 }
 
-#06829abac37ea79ad61ba498eb121c7043d39acc
 ```
 
 L'objectif de cette classe est de proposer des représentations graphiques de ces données en collaborant à l'aide de l'outil git.
 
 We charge the new package 
+
+```{r load_package}
+library('palmerpenguins')
+```
+We execute an unused command
 ```{r commande_morte, eval = FALSE}
 2+4
 
-```
-```{r, eval = TRUE}
-```
 
-06829abac37ea79ad61ba498eb121c7043d39acc
+
+```
 
