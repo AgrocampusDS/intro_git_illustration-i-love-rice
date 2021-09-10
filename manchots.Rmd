@@ -1,10 +1,7 @@
 ---
 title: "Etude sur les manchots"
 <<<<<<< HEAD
-author: "MP Etienne, Florence Ghestem et al."
-=======
-author: "Elias et al"
->>>>>>> d13a972ee416c9c1eaf47640dc3aecefd4a7f710
+author: "MP Etienne, Elias, Florence Ghestem et al."
 date: "9/2/2021"
 output: html_document
 ---
@@ -26,6 +23,17 @@ On charge le package
 ```{r chargement_du_package}
 library(palmerpenguins)
 ```
+
+```{r}
+data <- data(package = "palmerpenguins")
+head(penguins)
+```
+
+```{r}
+lm <- lm(bill_length_mm~bill_depth_mm, data = penguins)
+summary(lm)
+```
+
 
 Commande non executée 
 
