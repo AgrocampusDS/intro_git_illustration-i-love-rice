@@ -38,12 +38,14 @@ Création d'une boucle
 
 ```{r loop}
 i=0
+N=rep(0,10)
 for (i in 1:10){
-  N=i+1
-  cat("N est égal à", N , "
+  N[i]=i+1
+  cat("N est égal à", N[i] , "
 ")
 }
-
+plot(N)
+abline(1,1)
 ```
 
 L'objectif de cette classe est de proposer des représentations graphiques de ces données en collaborant à l'aide de l'outil git.
