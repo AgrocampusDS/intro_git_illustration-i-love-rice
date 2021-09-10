@@ -51,7 +51,7 @@ L'objectif de cette classe est de proposer des représentations graphiques de ce
 
 We charge the new package 
 ```{r commande_morte, eval = FALSE}
-2+2
+2+4
 
 ```
 ```{r, eval = TRUE}
